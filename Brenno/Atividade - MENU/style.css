@@ -1,0 +1,112 @@
+body {
+    background-image: url(https://static.vecteezy.com/ti/vetor-gratis/p1/11332525-fundo-de-conceito-de-cafe-desenhado-a-mao-vetor.jpgpg) ;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 20px;
+}
+
+* {
+    border-radius: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.established {
+    font-style: italic;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+img {
+    display: block;
+    margin-top: -25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    text-align: center;
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+h1, h2 {
+    font-family: Impact, serif;
+}
+
+.item p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.flavor, .dessert {
+    text-align: left;
+    width: 75%;
+    
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+    
+}
+
+footer {
+    font-size: 14px;
+}
+
+.address {
+    margin-bottom: 5px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active {
+    color: brown;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}

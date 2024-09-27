@@ -1,0 +1,92 @@
+.body {
+  background-image: url(https://i.pinimg.com/736x/22/9f/a8/229fa83fa5a7c7d2bb9047e915ee43fc.jpg);
+}
+
+
+#fixed {
+  position: absolute;
+  color: #000000;
+  border-radius: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.tabela1 {
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  margin-top: 5%;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.figura1 {
+  float: inline-start;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.figura2 {
+  float: inline-start;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.figura3 {
+  float: inline-start;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 15px;
+}
+
+.Listas {
+  margin-right: 70%;
+  font-family: sans-serif;
+  text-align: left;
+  margin-right: 70%;
+}
+
+.tabela2 {
+  background-color: #000000;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 10px;
+  float: inline-start;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  margin-right: 10px;
+}
+
+.Videos {
+  text-align: center;
+}
+
+.fixed {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 10%;
+  
+}
+
+.texto1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  float: inline-start;
+  font-size: small;
+  margin-right: 5px;
+  
+}
+.texto2 {
+  font-family: Arial, Helvetica, sans-serif;
+  float: inline-end;
+  text-align: left;
+  font-size: small;
+}
+.texto3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  text-align: left;
+}
+

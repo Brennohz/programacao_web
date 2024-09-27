@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">Sobre</a>
+        <a href="#services">Serviços</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contato</a>
+      </nav>
+    </header>
+
+    <!--home section desing -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Opa, sou eu</h3>
+        <h1>Brenno</h1>
+        <h3>
+          e eu sou um <span>Desenvolvedor <br /> </span>
+          <span class="multiple-text"></span>
+        </h3>
+        <p>
+          Olá! Eu sou Brenno Oliveira e atuo tanto no desenvolvimento front-end
+          quanto no back-end. Tenho paixão por criar experiências incríveis para
+          os usuários, além de garantir que toda a parte de trás funcione
+          perfeitamente. Estou sempre em busca de novos desafios na área de
+          tecnologia!
+        </p>
+      </div>
+      <div class="social-media">
+        <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+        <a href="#"><i class="bx bxl-twitter"></i></a>
+        <a href="#"><i class="bx bxl-twitch"></i></a>
+        <a href="#"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <div>
+        <a href="#" class="bnt">Download CV</a>
+      </div>
+
+      <div class="home-img">
+        <img src="Images/home.jpg" />
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="Images/sobre.jpg" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">Sobre <span>Mim</span></h2>
+        <h3>Meus Interesses</h3>
+        <p>
+          Sou uma pessoa apaixonada por diversos universos criativos! Filmes e
+          séries sempre me inspiram, enquanto animes e mangás me transportam
+          para novas realidades. Adoro mergulhar em bons livros e explorar
+          mundos incríveis através dos jogos. A fotografia é outra das minhas
+          paixões, permitindo-me capturar momentos e contar histórias visuais.
+          E, claro, a programação é uma parte fundamental da minha vida, onde
+          posso transformar ideias em realidade. Cada uma dessas atividades me
+          enriquece e me motiva a continuar explorando e aprendendo!
+        </p>
+        <a href="#" class="bnt">Leia mais</a>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2 class="heading">Outros <span>Serviços</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Front-end</h3>
+          <p>
+            Sou apaixonado por desenvolvimento web, criando sites que não apenas
+            funcionam bem, mas também oferecem uma experiência incrível aos
+            usuários. Combinando design atraente e funcionalidade, meu objetivo
+            é trazer ideias à vida na internet, sempre buscando inovações e
+            soluções criativas.
+          </p>
+          <a href="#" class="bnt">Leia Mais</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-code-curly"></i>
+          <h3>Back-end</h3>
+          <p>
+            No universo do back-end, meu foco é construir a estrutura sólida que
+            suporta aplicações e sites. Gosto de trabalhar com bancos de dados,
+            servidores e APIs, garantindo que tudo funcione de maneira fluida e
+            eficiente. Para mim, cada linha de código é uma peça fundamental
+            para o sucesso do projeto.
+          </p>
+          <a href="#" class="bnt">Leia Mais</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxs-paint"></i>
+          <h3>Graphic Desing</h3>
+          <p>
+            No design gráfico, busco comunicar ideias de forma visual e
+            impactante. Combinar criatividade e técnica para
+            desenvolver identidades visuais, ilustrações e layouts que capturam
+            a essência de cada projeto. Acredito que um bom design transforma
+            não só a estética, mas também a experiência do usuário.
+          </p>
+          <a href="#" class="bnt">Leia Mais</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Ultimos <span>Projetos</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img
+            src="https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            alt=""
+          />
+          <div class="portfolio-layer">
+            <h4>Projeto1</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+              iste.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contate-<span>Me!</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="bnt" />
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyrigth &copy; 2024 by Brenno Oliveira</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- custom js -->
+    <script src="script.js"></script>
+  </body>
+</html>
