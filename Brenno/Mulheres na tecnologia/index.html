@@ -1,47 +1,165 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mulheres na Tecnologia</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-</head>
-<body>
-    <header>
-    <nav>
-        <a href="#" target="_blank">Home</a>
-        <a href="inscrição.html" target="_blank">Inscrição</a>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="index-header">
+      <nav>
+        <a href="#">Home</a>
+        <a href="inscrição.html" target="_blank">Inscreva-se</a>
         <a href="contatos.html" target="_blank">Contato</a>
-    </nav>
+      </nav>
     </header>
 
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://storage.googleapis.com/twg-content/original_images/twg_dia_da_mulher_hero.png"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h2  style="text-shadow: 2px 2px black;">Mulheres na Tecnologia</h2>
+            <p  style="text-shadow: 2px 2px black;">
+              As mulheres na tecnologia têm desempenhado um papel fundamental na
+              inovação e no desenvolvimento de soluções que moldam o mundo
+              contemporâneo. Apesar de enfrentarem desafios, como a
+              sub-representação e a desigualdade de oportunidades, elas
+              continuam a quebrar barreiras e a inspirar novas gerações.
+              Iniciativas como mentoria, programas de capacitação e comunidades
+              de apoio têm se multiplicado, promovendo a inclusão e a
+              diversidade no setor. O empoderamento feminino na tecnologia não
+              só enriquece a indústria, mas também contribui para um futuro mais
+              equitativo e inovador. Celebrar e apoiar essas profissionais é
+              essencial para o avanço de todas as áreas da tecnologia.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://storage.googleapis.com/twg-content/original_images/twg_dia_da_mulher_hero2.png"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h1 style="text-shadow: 2px 2px black;">Faça mentorias</h1>
+            <p style="text-shadow: 2px 2px rgb(233, 233, 233);
+                      font-weight: bolder;
+                      color: black">
+              A mentoria para mulheres na tecnologia é uma iniciativa
+              fundamental para empoderar e conectar mulheres em um setor em
+              constante evolução. Nesse espaço, elas têm a oportunidade de
+              aprender, trocar experiências e construir uma rede de apoio forte
+              e solidária. Mentoras experientes estão prontas para compartilhar
+              suas histórias, oferecer conselhos práticos e ajudar a abrir
+              portas que, muitas vezes, podem parecer intransponíveis
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://educacaopublica.cecierj.edu.br/042022/34abf36a0444b0538ff614a56f94fa56.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h4  style="text-shadow: 2px 2px black;" >
+                Qualquer mulher pode entrar no mundo da tecnologia
+            </h4>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Proximo</span>
+      </button>
+    </div>
+
     <main>
-        <section class="scarrossel">
-            
-        </section>
+      <section class="icones">
+        <div class="historias">
+          <a href="historias.html"><i class="bx bx-book"></i></a>
+          <h4>Conheça as histórias</h4>
+        </div>
 
-        <section class="icones">
-            <div class="historias">
-                <a href="#"><i class='bx bx-book'></i></a>
-            </div>
-
-            <div class="inscrição">
-               <a href="#"><i class='bx bx-message-alt-edit' ></i></a> 
-
-            </div>
-            <div class="doar">
-                <a href="#"><i class='bx bx-donate-heart' ></i></a>
-
-            </div>
-        </section>
+        <div class="inscrição">
+          <a href="inscrição.html"><i class="bx bx-message-alt-edit"></i></a>
+          <h4>Inscreva-se em Mentorias, Workshops, Cursos e etc..</h4>
+        </div>
+        <div class="doar">
+          <a href="#"><i class="bx bx-donate-heart"></i></a>
+          <h4>
+            Doe para instituições com foco em capacitar mulheres para o mercado
+            da tecnologia
+          </h4>
+        </div>
+      </section>
     </main>
 
+    <footer> 
+        <p>&copy; Todos os Direitos Reservados <br> Desenvolvido por Brenno Oliveira <br>
+        Henrique Gomes <br> Luis Victor <br> Otavio Henrique</p>
+    </footer>
 
- <footer>
-
- </footer>
-
-    <script src="script.js"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

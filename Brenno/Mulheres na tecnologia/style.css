@@ -1,5 +1,5 @@
-* {
-    background-color: rgb(255, 255, 255);
+body {
+    background-color: rgb(216, 229, 233);
     margin: 0;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -8,13 +8,23 @@
 
 nav {
     text-align: right;
-    background-color: rgb(182, 252, 187);
-    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    padding: 1.8rem;
     font-size: 21px;
     font-weight: bold;
 }
 
-a {
+.index-header {
+    box-shadow: 4px black;
+    position: sticky;
+}
+
+.icones h4 {
+    justify-content: center;
+    text-align: center;
+}
+
+nav a {
     margin-left: 30px;
     background-color: transparent;
     text-decoration: none;
@@ -25,46 +35,60 @@ a {
 .icones{
     display: flex;
     align-items: center;
+    margin-left: 8%;
+    
 }
 
 .icones a {
+    text-decoration: none;
+}
+
+.icones i {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50px;
-    height: 50px;
+    font-size: 88px;
+    background-color: transparent;
+    color: white;
+    margin: 10%;
+    
 }
 
 .historias {
-    width: 250px;
-    height: 250px;
-    border-radius: 45%;
-    background-color: rgb(137, 147, 237);
+    width: 270px;
+    height: 300px;
+    border-radius: 60px;
+    background-color: rgb(85, 95, 189);
     margin: 5%;
+    color: white;
 }
 
 .inscrição {
-    width: 250px;
-    height: 250px;
-    border-radius: 45%;
-    background-color: rgb(137, 147, 237);
+    width: 270px;
+    height: 300px;
+    border-radius: 60px;
+    background-color: rgb(85, 95, 189);
     margin: 5%;
+    color: white;
+    align-items: center;
+    justify-content: center;
 }
 
 .doar {
-    width: 250px;
-    height: 250px;
-    border-radius: 45%;
-    background-color: rgb(137, 147, 237);
+    width: 270px;
+    height: 300px;
+    border-radius: 60px;
+    background-color: rgb(85, 95, 189);
     margin: 5%;
+    color: white;
 }
 
 .contatos {
     padding: 7%;
-    background-color: rgb(154, 224, 180);
+    background-color: rgb(71, 141, 86);
     color: white;
     font-size: 20px;
-    text-align: center;
+    text-align: start;
 }
 
 .contatos h1 {
@@ -72,7 +96,7 @@ a {
 }
 
 .falar h2 {
-    color: rgb(154, 224, 180);
+    color: rgb(0, 129, 47);
 
 }
 
@@ -84,7 +108,7 @@ a {
 .falar {
     align-items: center;
     display: flex;
-    margin: 10%;
+    margin: 30px;
 }
 
 .email {
@@ -111,8 +135,6 @@ a {
     font-weight: bolder;
     color: black;
 }
-
-
 
 .inscrevase {
     font-family: Arial, Helvetica, sans-serif;
@@ -172,9 +194,44 @@ textarea {
 
 }
 
-img {
+.image {
     align-items: right;
     justify-content: right;
     margin-bottom: 0;
     margin-left: 45%;
+}
+
+.img-hist {
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.body-hist h2 {
+    font-size: 40px;
+}
+
+.body-hist p {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.body-hist {
+    align-items: center;
+    text-align: center;
+}
+
+.hist-header {
+    font-size: 40px;
+}
+
+.body-hist h1 {
+    font-size: 40px;
+}
+
+footer {
+    padding: 5px;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 0;
 }
