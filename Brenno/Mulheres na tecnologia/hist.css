@@ -1,0 +1,32 @@
+footer {
+    padding: 5px;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+nav {
+    text-align: right;
+    background-color: rgb(255, 255, 255);
+    padding: 1.8rem;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.index-header {
+    box-shadow: 4px black;
+    position: sticky;
+}
+
+.icones h4 {
+    justify-content: center;
+    text-align: center;
+}
+
+nav a {
+    margin-left: 30px;
+    background-color: transparent;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
