@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=7, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        height: 500px;
+        width: 500px;
+        background-color: rgb(212, 203, 203);
+        margin: 10px;
+        border-radius: 30px;
+      }
+
+      p {
+        margin: 15px;
+        line-height: 25px;
+        text-align: justify;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="colorButton">Escuro</button>
+    <button id="backColor">Claro</button>
+    <div id="box">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vitae,
+        eius esse officia aliquam veniam? Voluptates recusandae quaerat minus,
+        distinctio natus veniam autem soluta delectus excepturi deleniti! Animi,
+        deserunt nihil!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vitae,
+        eius esse officia aliquam veniam? Voluptates recusandae quaerat minus,
+        distinctio natus veniam autem soluta delectus excepturi deleniti! Animi,
+        deserunt nihil!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vitae,
+        eius esse officia aliquam veniam? Voluptates recusandae quaerat minus,
+        distinctio natus veniam autem soluta delectus excepturi deleniti! Animi,
+        deserunt nihil!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vitae,
+        eius esse officia aliquam veniam? Voluptates recusandae quaerat minus,
+        distinctio natus veniam autem soluta delectus excepturi deleniti! Animi,
+        deserunt nihil!
+      </p>
+    </div>
+    <script>
+        document.getElementById('colorButton').onclick = function () {
+            document.getElementById('box').style.backgroundColor = 'black';
+            document.getElementById('box').style.color = 'white';
+        }
+
+    </script>
+    <script>
+        document.getElementById('backColor').onclick = function () {
+            document.getElementById('box').style.backgroundColor = 'lightgrey';
+            document.getElementById('box').style.color = 'black';
+        }
+
+    </script>
+  </body>
+</html>

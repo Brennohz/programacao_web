@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        button{
+            padding: 20px;
+            background-color: rgb(38, 25, 139);
+            color: white;
+            border-radius: 20px;
+            font-size: 30px;
+            font-weight: bolder;
+        }
+        p{
+            font-size: 30px;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+
+    <button id="clickButton">CLICA AQUI!!</button>
+    <p id="contarClique">Você clicou 0 vezes</p>
+
+    <script>
+        let count = 0;
+        document.getElementById('clickButton').onclick = function () {
+            count++;
+
+            document.getElementById('contarClique').innerHTML = 'Você clicou ' +
+            count + ' vezes '
+        }
+
+        if (count >= 10) {
+            
+        }
+    </script>
+    
+</body>
+</html>

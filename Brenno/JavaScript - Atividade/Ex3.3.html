@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=7, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+
+        body{
+            background-image: url(https://cdn.pixabay.com/photo/2024/03/31/16/56/universe-8667114_1280.png);
+        }
+        
+      div {
+        height: 600px;
+        width: 500px;
+        background-color: rgb(212, 203, 203);
+        margin: 10px;
+        border-radius: 30px;
+        display: block;
+      }
+
+      p {
+        margin: 15px;
+        line-height: 25px;
+        text-align: justify;
+        padding: 5px;
+      }
+
+      img {
+        width: 200px;
+        border-radius: 20px;
+        margin: 20px;
+
+      }
+
+    </style>
+  </head>
+  <body>
+    <button id="colorButton">Escuro</button>
+    <button id="backColor">Claro</button>
+    <button id="surpresaButton">Surpresa</button>
+    <div id="box">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vitae,
+        eius esse officia aliquam veniam? Voluptates recusandae quaerat minus,
+        distinctio natus veniam autem soluta delectus excepturi deleniti! Animi,
+        deserunt nihil!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vitae,
+        eius esse officia aliquam veniam? Voluptates recusandae quaerat minus,
+        distinctio natus veniam autem soluta delectus excepturi deleniti! Animi,
+        deserunt nihil!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vitae,
+        eius esse officia aliquam veniam? Voluptates recusandae quaerat minus,
+        distinctio natus veniam autem soluta delectus excepturi deleniti! Animi,
+        deserunt nihil!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vitae,
+        eius esse officia aliquam veniam? Voluptates recusandae quaerat minus,
+        distinctio natus veniam autem soluta delectus excepturi deleniti! Animi,
+        deserunt nihil!
+      </p>
+
+      <img src="https://img.freepik.com/vetores-premium/planeta-fofo-e-brilhante-de-saturno-em-estilo-pixel-art-no-fundo-do-espaco_88653-1372.jpg" alt="">
+
+    </div>
+
+    <script>
+        document.getElementById('colorButton').onclick = function () {
+            document.getElementById('box').style.backgroundColor = 'black';
+            document.getElementById('box').style.color = 'white';
+        }
+
+        document.getElementById('backColor').onclick = function () {
+            document.getElementById('box').style.backgroundColor = 'lightgrey';
+            document.getElementById('box').style.color = 'black';
+        }
+
+        document.getElementById('surpresaButton').onclick = function () {
+            document.getElementById('box').style.backgroundColor = 'violet';
+            document.getElementById('box').style.color = 'white';
+        }
+
+    </script>
+
+    
+  </body>
+</html>
+
+</body>
+</html>
