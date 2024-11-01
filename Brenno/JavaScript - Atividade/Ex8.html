@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Boolean</title>
+</head>
+<body>
+
+    <h2>Você gosta de Programação</h2>
+    <button id="yesButton">Sim</button>
+    <button id="notButton">Não</button>
+
+    <p id="resposta"> </p>
+
+    <script>
+        document.getElementById('yesButton').onclick = function() {
+            let gostoProgramacao = true;
+            document.getElementById('resposta').innerHTML = "Você respondeu: " + gostoProgramação;
+        }
+
+        document.getElementById('notButton').onclick = function() {
+            let gostoProgramacao = false;
+            document.getElementById('resposta').innerHTML = "Você respondeu: " + gostoProgramação;
+        }
+        
+    </script>
+    
+
+</body>
+</html>

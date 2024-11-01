@@ -34,11 +34,16 @@
 
             document.getElementById('contarClique').innerHTML = 'Você clicou ' +
             count + ' vezes '
-        }
 
         if (count >= 10) {
-            
+            document.getElementById('contarClique').style.color = 'red';
         }
+        else {
+            document.getElementById('contarClique').style.color = 'blue';
+        }
+
+    }
+        
     </script>
     
 </body>

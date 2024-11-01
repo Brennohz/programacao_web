@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Number</title>
+</head>
+<body>
+    
+    <h2>Digite seu ano de nascimento</h2>
+    <input type="text" id="birthYearInput">
+    <button id="calcularAgeButton">Calcular Idade</button>
+
+    <p id="ageResponse"></p>
+
+    <script>
+        document.getElementById('calcularAgeButton').onclick = function() {
+            let birthYear = Number(document.getElementById('bithYearInput').value);
+            let currentYear = new Date().getFullYear();
+            let age = currentYear - birthYear;
+
+            document.getElementById('ageResponsive').innerText = "Você tem aproximadamente " + age + " anos.";
+
+        }
+    </script>
+</body>
+</html>
