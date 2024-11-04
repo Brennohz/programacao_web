@@ -14,31 +14,26 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 20px 10px;
     background-color: #d9d9d9;
+    padding-right: 20px;
+    
     
     
 }
 
-.logo h1 {
-    font-size: 40px;
-    color: #E82C2C;
-    margin-bottom: 5px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    padding: 0px 20px;
+.logo {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
 }
 
-.logo p {
-    font-size: 20px;
-    color: #333;
+.logo2{
     display: flex;
-    text-align: center;
+   justify-content: center;
     align-items: center;
-    justify-content: center;
-    padding: 0px 20px;
-    margin: 0px 30px;
+  
 }
 
 .btn-baixar {
@@ -50,7 +45,11 @@ body {
     cursor: pointer;
     border-radius: 5px;
     display: flex;
-    margin: 0px 200px;
+    margin: 0px 140px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     
  
 }
@@ -75,22 +74,24 @@ body {
 .text-section h2 {
     font-size: 100px;
     color: #333;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .text-section .highlight {
     color: #E82C2C;
+    
+   
 }
 
 .text-section h3 {
-    font-size: 30px;
+    font-size: 33px;
     color: #333;
     margin-bottom: 20px;
 }
 
 .text-section p {
-    font-size: 20px;
-    color: #666;
+    font-size: 23px;
+    color: #414141;
     line-height: 1.5;
     margin-bottom: 20px;
 }
@@ -99,8 +100,8 @@ body {
     background-color: #ff0000;
     color: white;
     border: none;
-    padding: 10px 20px;
-    font-size: 20px;
+    padding: 15px 28px;
+    font-size: 22px;
     cursor: pointer;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -110,14 +111,26 @@ body {
     background-color: #870000;
 }
 
-.disponivel-em {
-    font-size: 20px;
-    color: #666;
+.disponivel-em{
+    font-size: 21px;
+    color: #4f4e4e;
+    padding-left: 30px;
+   
+    
+    
 }
 
 .icons {
     font-weight: bold;
-    margin-left: 5px;
+    margin-left: 6px;
+    margin: 5px;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+    
+    
 }
 
 .image-section {
