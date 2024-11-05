@@ -1,0 +1,83 @@
+
+/* Variaveis */
+:root {
+    --ConstrastColor: #d24646;
+}
+
+
+/* Geral */
+body {
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #f0f0f0;
+}
+
+
+/* Paginas */
+.Page {
+    width: 100%;
+    max-width: 600px;
+    
+    padding: 20px;
+
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    
+    position: absolute;
+    text-align: center;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease, visibility 0.5s;
+}
+.Page.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* Conteudo */
+header {
+    background-color: var(--ConstrastColor);
+    color: white;
+
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+}
+main {
+    padding: 20px;
+}
+footer {
+    padding: 10px;
+
+    background-color: #eee;
+    border-radius: 0 0 8px 8px;
+}
+
+
+/* Botões */
+.Button {
+    background-color: var(--ConstrastColor);
+    color: white;
+   
+    padding: 10px 20px;
+    margin-top: 20px;
+
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+
+    cursor: pointer;
+}
+.Button:hover {
+    background-color: var(--ConstrastColor);
+}
